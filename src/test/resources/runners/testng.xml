@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Miro Test Suite">
+
+
+    <test name="Functional Tests">
+        <groups>
+            <run>
+                <include name="signup"/>
+                <include name="positive"/>
+                <include name="negative"/>
+                <include name="smoke"/>
+                <include name="home"/>
+                <include name="password"/>
+                <include name="redirection"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.SignUpTest"/>
+        </classes>
+    </test>
+
+
+</suite>
