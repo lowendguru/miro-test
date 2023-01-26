@@ -89,14 +89,14 @@ Extensive step-by-step reporting with screenshot capturing upon test failure was
 ## Results
 
 Out of 49 total test cases, 4 are failing. 3 failures related to the test shouldValidateEmailTextFieldSignUpPage happen because of the bug reported here:
-https://gitlab.com/lowendguru/miro-test/-/issues/3
+https://github.com/lowendguru/miro-test/issues/3
 The failure related to test shouldSignUpSuccessfullyFromHomePage is caused by the bug described here:
-https://gitlab.com/lowendguru/miro-test/-/issues/4
+https://github.com/lowendguru/miro-test/issues/4
 
 Additional bugs were found during the debugging of the automated tests though not necessarily covered by the scope of this suite.
 
 For a full list of found bugs go to:
-https://gitlab.com/lowendguru/miro-test/-/issues
+https://github.com/lowendguru/miro-test/issues
 
 
 # Video demo of local execution
